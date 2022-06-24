@@ -30,6 +30,16 @@ objectives:
   warning: []
   weight: 0
   key_sli: false
+  - sli: cputime
+  displayName: ""
+  pass:
+  - criteria:
+    - <700
+  warning:
+  - criteria:
+    - <=900
+  weight: 1
+  key_sli: false
 total_score:
   pass: 90%
   warning: 75%
