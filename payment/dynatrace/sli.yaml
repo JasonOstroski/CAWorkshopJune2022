@@ -5,4 +5,4 @@ indicators:
   response_time_p90: metricSelector=builtin:service.response.time:merge("dt.entity.service"):percentile(90)&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:payment)
   response_time_p95: metricSelector=builtin:service.response.time:merge("dt.entity.service"):percentile(95)&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:payment)
   throughput: metricSelector=builtin:service.requestCount.total:merge("dt.entity.service"):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:payment)
-  cpu_time: metricSelector=builtin:service.cpu.time:merge(\"dt.entity.service"):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:payment)
+  cpu_time: metricSelector=builtin:service.cpu.time:merge("dt.entity.service"):sum&entitySelector=type(SERVICE),tag(keptn_managed),tag(keptn_service:payment)
