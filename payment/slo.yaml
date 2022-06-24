@@ -30,7 +30,7 @@ objectives:
   warning: []
   weight: 0
   key_sli: false
-  - sli: cpu_time
+- sli: cpu_time
   displayName: ""
   pass:
   - criteria:
