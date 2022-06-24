@@ -34,10 +34,10 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <700
+    - <15000
   warning:
   - criteria:
-    - <=900
+    - <=20000
   weight: 1
   key_sli: false
 total_score:
