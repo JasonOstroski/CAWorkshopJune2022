@@ -16,7 +16,7 @@ objectives:
     - <=800
   weight: 1
   key_sli: false
-- sli: checkout_response_time_p90
+- sli: checkout_response_time
   displayName: ""
   pass:
   - criteria:
